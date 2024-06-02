@@ -1,0 +1,94 @@
+.todos-container {
+	background: var(--background-secondary-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 28px;
+	margin: 20px;
+	border: none;
+	border-radius: 20px;
+}
+
+.todos-add-button {
+	background: var(--background-secondary-color);
+	border: 2px var(--secondary-color) solid;
+}
+
+.todos-add-button:hover {
+	border-radius: 0;
+}
+
+.todos-add-button:active {
+	background: var(--secondary-color);
+}
+
+.todos-title {
+	color: var(--white-color);
+}
+
+.add-todo {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border: 2px var(--primary-color) solid;
+	border-radius: 16px;
+	align-items: center;
+	margin-block: 10px;
+	width: 100%;
+}
+
+.add-todo input {
+	color: var(--white-color);
+	font-size: 20px;
+	padding: 5px;
+	border: none;
+	outline: none;
+	border-bottom: 2px var(--primary-color) solid;
+	background: none;
+	margin-block: 10px;
+}
+
+.cancel-button {
+	background: var(--background-secondary-color);
+	border: 2px var(--danger-color) solid;
+}
+
+.cancel-button:hover {
+	border-radius: 0;
+}
+
+.cancel-button:active {
+	background: var(--danger-color);
+}
+
+.add-button {
+	background: var(--background-secondary-color);
+	border: 2px var(--primary-color) solid;
+}
+
+.add-button:hover {
+	border-radius: 0;
+}
+
+.add-button:active {
+	background: var(--primary-color);
+}
+
+.hidden {
+	display: none;
+}
+
+.error {
+	color: var(--white-color);
+	font-size: 20px;
+	padding: 5px;
+	color: var(--danger-color);
+}
+
+.todos-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

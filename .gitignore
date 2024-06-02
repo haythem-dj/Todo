@@ -1,0 +1,9 @@
+*.sqlite3
+
+env
+__pycache__
+migrations
+
+entry.sublime-project
+entry.sublime-workspace
+package-lock.json
